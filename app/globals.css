@@ -1,0 +1,430 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts) : Fraunces pour les titres, Inter pour le texte. Aucun appel à Google Fonts. */
+@font-face {
+  font-family: "Fraunces Local";
+  src: url("/fonts/fraunces-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Local";
+  src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Charte tirée de la boutique : la façade anthracite (ardoise sombre), la crème des murs et des sachets,
+     le doré des croûtes et du blé, le brun de la croûte bien cuite. Le rouge des croissants framboise, en touche. */
+  --color-cream: #fbf6ec;
+  --color-cream-deep: #f3e9d8;
+  --color-paper: #fffcf6;
+  --color-slate: #2f3e4e;
+  --color-slate-deep: #222d39;
+  --color-slate-soft: #e4e8ec;
+  --color-wheat: #d4a24c;
+  --color-wheat-soft: #f5e8cb;
+  --color-crust: #6b3e26;
+  --color-crust-deep: #4f2c1a;
+  --color-ink: #2a211c;
+  /* Texte courant : 7:1 sur crème */
+  --color-muted: #5e5148;
+  --color-line: #e6d9c4;
+  --color-red: #b23a2e;
+  --color-basil: #3f7a46;
+
+  --font-body: "Inter Local", system-ui, sans-serif;
+  --font-display: "Fraunces Local", Georgia, "Times New Roman", serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-slate);
+    color: var(--color-cream);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-crust);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.03;
+    letter-spacing: -0.018em;
+    font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 96;
+  }
+  .eyebrow {
+    font-size: 0.9375rem;
+    font-weight: 550;
+    line-height: 1.3;
+    color: var(--color-crust);
+  }
+  /* Capitales espacées : ligne d'enseigne du hero et tuiles (comme les tuiles de catégories d'une grande maison). */
+  .sign {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.125rem;
+    line-height: 1.65;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line,
+  .btn-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.5rem;
+    border: 1.5px solid transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 550;
+    line-height: 1.15;
+    white-space: nowrap;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft),
+      transform 0.15s var(--ease-soft);
+  }
+  .btn:active,
+  .btn-line:active,
+  .btn-light:active {
+    transform: scale(0.98);
+  }
+  .btn {
+    background: var(--color-slate);
+    border-color: var(--color-slate);
+    color: var(--color-paper);
+  }
+  .btn:hover {
+    background: var(--color-slate-deep);
+    border-color: var(--color-slate-deep);
+  }
+  .btn-line {
+    border-color: currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-light {
+    background: var(--color-paper);
+    border-color: var(--color-paper);
+    color: var(--color-slate);
+  }
+  .btn-light:hover {
+    background: var(--color-wheat-soft);
+    border-color: var(--color-wheat-soft);
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.3em;
+    text-decoration-color: color-mix(in oklab, var(--color-crust) 40%, transparent);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 1px solid #cdbca3;
+    border-radius: 4px;
+    background: var(--color-paper);
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s;
+  }
+  textarea.field {
+    min-height: 7rem;
+    resize: vertical;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232F3E4E' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.85rem center / 1.05rem;
+    padding-inline-end: 2.5rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-slate);
+    box-shadow: 0 0 0 1px var(--color-slate);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-red);
+  }
+  .field::placeholder {
+    color: #85786d;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.9375rem;
+    font-weight: 550;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 2.75rem;
+    padding: 0.4rem 1.1rem;
+    border: 1px solid #cdbca3;
+    border-radius: 4px;
+    background: var(--color-paper);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-slate);
+  }
+  .chip:has(input:checked) {
+    border-color: var(--color-slate);
+    background: var(--color-slate);
+    color: var(--color-paper);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-crust);
+    outline-offset: 3px;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    border-radius: 3px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+
+  .zoom {
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.7s var(--ease-soft);
+  }
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+
+  /* Onglets de la carte : défilement horizontal sur mobile, sans barre visible */
+  .tabs {
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 14px));
+}
+.reveal {
+  transition:
+    opacity 0.55s var(--ease-out) var(--reveal-delay, 0s),
+    transform 0.55s var(--ease-out) var(--reveal-delay, 0s);
+}
+.rise {
+  animation: rise 0.7s var(--ease-out) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+/* Petit rebond de l'article ajouté à la commande */
+.pop {
+  animation: pop 0.35s var(--ease-out);
+}
+@keyframes pop {
+  40% {
+    transform: scale(1.12);
+  }
+}
+
+/* ——— Ouverture (1,2 s) : fond crème, un moulin à vent se dessine au trait doré, ses ailes font un tour,
+   « LE MOULIN » puis « BOULANGERIE · CROIX NIVERT », fondu sur le hero. Une fois par session. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain,
+html:not(.js) .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.4s var(--ease-soft) 0.04s forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-sails {
+  transform-box: view-box;
+  transform-origin: 32px 24px;
+  opacity: 0;
+  animation:
+    intro-sails-in 0.15s linear 0.2s forwards,
+    intro-turn 0.65s var(--ease-out) 0.2s forwards;
+}
+@keyframes intro-sails-in {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes intro-turn {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.intro-word {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-word 0.25s var(--ease-soft) 0.55s forwards;
+}
+.intro-word-2 {
+  animation-delay: 0.68s;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

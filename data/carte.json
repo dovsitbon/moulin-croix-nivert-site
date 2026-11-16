@@ -1,0 +1,86 @@
+{
+  "_doc": "La carte, en français et en anglais. price : prix en euros (nombre) ou null tant qu'il n'est pas connu (le site affiche « Prix en boutique »). from : true = « à partir de ». Prix relevés le 2026-11-16 sur les étiquettes et ardoises visibles sur les photos de la fiche Google ; tous à confirmer avec le boulanger. photo : chemin dans public/media (fichier absent = emplacement dessiné, en attendant la photo prise sur place, voir assets/A-PHOTOGRAPHIER.md). signature : mis en avant. veg : végétarien. leadDays : délai minimum en jours avant le retrait (gâteaux sur commande). season : id d'une saison de data/saisons.json (ne se commande qu'en saison). orderable : false pour ne pas proposer l'article dans la commande en ligne (boissons, formules servies sur place, pièces montées sur devis). confirm : true = article ou recette à confirmer (signalé dans CONTENU.md, pas sur le site).",
+  "checked": "2026-11-16",
+  "categories": [
+    {
+      "id": "pains",
+      "fr": "Pains",
+      "en": "Bread",
+      "items": [
+        { "id": "tradition", "price": null, "photo": "/media/pains/baguette-tradition.jpg", "signature": true, "fr": { "name": "Baguette tradition", "desc": "Croûte qui chante, mie crème et alvéolée. Celle qu'on vient chercher le soir." }, "en": { "name": "Baguette tradition", "desc": "Crackling crust, creamy open crumb. The one people queue for in the evening." } },
+        { "id": "baguette", "price": null, "photo": "/media/pains/baguette.jpg", "confirm": true, "fr": { "name": "Baguette", "desc": "La baguette de tous les jours, pour le petit-déjeuner et les sandwichs." }, "en": { "name": "Baguette", "desc": "The everyday baguette, for breakfast and sandwiches." } },
+        { "id": "nordik", "price": null, "photo": "/media/pains/pain-nordik.jpg", "fr": { "name": "Pain Nordik", "desc": "Le pain aux graines annoncé sur la vitrine. Dense, parfumé, il se garde bien." }, "en": { "name": "Nordik bread", "desc": "The seeded loaf named on our shop window. Dense, fragrant, keeps well." } },
+        { "id": "brioche", "price": null, "photo": "/media/pains/brioches.jpg", "confirm": true, "fr": { "name": "Brioche", "desc": "Grosse brioche dorée, à partager au petit-déjeuner du week-end." }, "en": { "name": "Brioche", "desc": "A big golden brioche, for sharing at a weekend breakfast." } }
+      ]
+    },
+    {
+      "id": "viennoiseries",
+      "fr": "Viennoiseries",
+      "en": "Pastries",
+      "items": [
+        { "id": "croissant-beurre", "price": null, "photo": "/media/viennoiseries/panier-cafes.jpg", "signature": true, "confirm": true, "fr": { "name": "Croissant au beurre", "desc": "Feuilleté, doré, croustillant dehors et fondant dedans." }, "en": { "name": "Butter croissant", "desc": "Flaky and golden, crisp outside, tender inside." } },
+        { "id": "pain-au-chocolat", "price": null, "photo": "/media/viennoiseries/pain-au-chocolat.jpg", "signature": true, "fr": { "name": "Pain au chocolat", "desc": "Deux barres de chocolat dans une pâte feuilletée bien cuite. Le favori des avis." }, "en": { "name": "Pain au chocolat", "desc": "Two bars of chocolate in well-baked flaky pastry. The reviewers' favourite." } },
+        { "id": "croissant", "price": 1.25, "photo": "/media/facade/terrasse.jpg", "confirm": true, "fr": { "name": "Croissant", "desc": "Le croissant classique, pour le café du matin au comptoir." }, "en": { "name": "Croissant", "desc": "The classic croissant, for a morning coffee at the counter." } },
+        { "id": "croissant-framboise", "price": 1.75, "photo": "/media/viennoiseries/croissant-framboise.jpg", "fr": { "name": "Croissant framboise", "desc": "Croissant rayé de rouge, garni à la framboise. Il se voit de loin dans la vitrine." }, "en": { "name": "Raspberry croissant", "desc": "Red-striped croissant with a raspberry filling. You'll spot it across the shop." } },
+        { "id": "pain-aux-raisins", "price": 1.55, "photo": "/media/viennoiseries/pain-aux-raisins.jpg", "fr": { "name": "Pain aux raisins", "desc": "Spirale de pâte feuilletée, crème pâtissière et raisins." }, "en": { "name": "Pain aux raisins", "desc": "A spiral of flaky pastry, custard and raisins." } },
+        { "id": "cruffin", "price": null, "photo": "/media/viennoiseries/cruffin.jpg", "confirm": true, "fr": { "name": "Cruffin à la crème", "desc": "Pâte à croissant roulée en spirale, sucrée, garnie de crème." }, "en": { "name": "Cream cruffin", "desc": "Croissant dough rolled into a spiral, sugared and cream-filled." } },
+        { "id": "chausson", "price": null, "photo": "/media/viennoiseries/chausson-aux-pommes.jpg", "confirm": true, "fr": { "name": "Chausson aux pommes", "desc": "Feuilleté rayé, compote de pommes." }, "en": { "name": "Apple turnover", "desc": "Scored puff pastry, apple compote inside." } }
+      ]
+    },
+    {
+      "id": "patisseries",
+      "fr": "Pâtisseries",
+      "en": "Cakes & tarts",
+      "items": [
+        { "id": "flan", "price": null, "photo": "/media/patisseries/flan.jpg", "signature": true, "fr": { "name": "Flan pâtissier", "desc": "Haut, tremblant, bien vanillé, sur une pâte croustillante. Un des plus cités par les clients." }, "en": { "name": "Flan pâtissier", "desc": "Tall, wobbly and full of vanilla, on a crisp crust. One of our customers' favourites." } },
+        { "id": "eclair", "price": null, "photo": "/media/patisseries/vitrine-eclairs.jpg", "fr": { "name": "Éclair", "desc": "Pâte à choux, crème pâtissière, glaçage brillant. Au chocolat ou au café." }, "en": { "name": "Éclair", "desc": "Choux pastry, custard, glossy icing. Chocolate or coffee." } },
+        { "id": "tarte-pommes", "price": 3.1, "photo": "/media/patisseries/tartes-pommes-foret-noire.jpg", "fr": { "name": "Tarte aux pommes", "desc": "Pommes en rosace sur compote, pâte feuilletée." }, "en": { "name": "Apple tart", "desc": "Apple slices fanned over compote, on puff pastry." } },
+        { "id": "tartelette-framboise", "price": null, "photo": "/media/patisseries/tarte-framboise.jpg", "fr": { "name": "Tartelette framboise", "desc": "Framboises entières sur crème, pâte sablée." }, "en": { "name": "Raspberry tartlet", "desc": "Whole raspberries on cream, shortcrust base." } },
+        { "id": "macarons", "price": null, "photo": "/media/patisseries/macarons.jpg", "fr": { "name": "Macarons", "desc": "Pistache, framboise, citron, vanille, chocolat : choisissez vos couleurs." }, "en": { "name": "Macarons", "desc": "Pistachio, raspberry, lemon, vanilla, chocolate: pick your colours." } },
+        { "id": "meringue", "price": 1.0, "photo": "/media/patisseries/meringue.jpg", "fr": { "name": "Meringue", "desc": "Blanc d'œuf et sucre, croquante dehors." }, "en": { "name": "Meringue", "desc": "Egg white and sugar, crisp on the outside." } }
+      ]
+    },
+    {
+      "id": "snacking",
+      "fr": "Snacking & formules",
+      "en": "Lunch & set menus",
+      "items": [
+        { "id": "quiche", "price": null, "photo": "/media/snacking/quiche.jpg", "signature": true, "fr": { "name": "Quiche", "desc": "Pâte brisée, appareil généreux. La lorraine, et les garnitures du jour." }, "en": { "name": "Quiche", "desc": "Shortcrust pastry, generous filling. Quiche lorraine and the day's specials." } },
+        { "id": "sandwich", "price": null, "photo": "/media/snacking/vitrine-fraiche.jpg", "fr": { "name": "Sandwich baguette", "desc": "Préparé le matin, sur baguette de la maison." }, "en": { "name": "Baguette sandwich", "desc": "Made in the morning, on our own baguette." } },
+        { "id": "croque", "price": null, "photo": "/media/snacking/croque-monsieur.jpg", "fr": { "name": "Croque-monsieur", "desc": "Jambon, fromage, béchamel, doré au four." }, "en": { "name": "Croque-monsieur", "desc": "Ham, cheese and béchamel, baked golden." } },
+        { "id": "salade", "price": null, "photo": "/media/snacking/salade.jpg", "confirm": true, "fr": { "name": "Salade", "desc": "En barquette, prête à emporter pour le déjeuner." }, "en": { "name": "Salad", "desc": "In a takeaway tub, ready for lunch." } },
+        { "id": "formule-sandwich", "price": 8.5, "photo": "", "orderable": false, "confirm": true, "fr": { "name": "Formule sandwich", "desc": "Un sandwich et une boisson au choix (canette 33 cl ou eau 50 cl)." }, "en": { "name": "Sandwich deal", "desc": "A sandwich and a drink of your choice (33 cl can or 50 cl water)." } },
+        { "id": "formule-quiche", "price": 9.0, "photo": "", "orderable": false, "confirm": true, "fr": { "name": "Formule quiche", "desc": "Une part de quiche et une boisson au choix (canette 33 cl ou eau 50 cl)." }, "en": { "name": "Quiche deal", "desc": "A slice of quiche and a drink of your choice (33 cl can or 50 cl water)." } },
+        { "id": "formule-petit-dejeuner", "price": 5.2, "photo": "", "orderable": false, "fr": { "name": "Formule petit-déjeuner", "desc": "Une boisson chaude, un jus d'orange 20 cl et une viennoiserie : croissant, pain au chocolat ou brioche." }, "en": { "name": "Breakfast deal", "desc": "A hot drink, a 20 cl orange juice and a pastry: croissant, pain au chocolat or brioche." } },
+        { "id": "formule-brunch", "price": 11.8, "photo": "/media/viennoiseries/panier-cappuccinos.jpg", "orderable": false, "fr": { "name": "Formule brunch", "desc": "Boisson chaude, jus d'orange 20 cl, deux viennoiseries ou deux tartines beurre-confiture, puis une quiche, un feuilleté ou un croque-monsieur." }, "en": { "name": "Brunch deal", "desc": "Hot drink, 20 cl orange juice, two pastries or two buttered baguette halves with jam, then a quiche, a savoury puff or a croque-monsieur." } }
+      ]
+    },
+    {
+      "id": "gateaux",
+      "fr": "Gâteaux sur commande",
+      "en": "Cakes to order",
+      "items": [
+        { "id": "galette-4", "price": 19.0, "photo": "/media/patisseries/galettes-des-rois.jpg", "season": "galettes", "leadDays": 1, "fr": { "name": "Galette des rois, 4 parts", "desc": "Pâte feuilletée, frangipane, la fève et la couronne." }, "en": { "name": "King cake, serves 4", "desc": "Puff pastry, almond frangipane, the charm and the paper crown." } },
+        { "id": "galette-6", "price": 28.0, "photo": "/media/patisseries/galettes-des-rois.jpg", "season": "galettes", "leadDays": 1, "fr": { "name": "Galette des rois, 6 parts", "desc": "Pâte feuilletée, frangipane, la fève et la couronne." }, "en": { "name": "King cake, serves 6", "desc": "Puff pastry, almond frangipane, the charm and the paper crown." } },
+        { "id": "galette-8", "price": 38.0, "photo": "/media/patisseries/galettes-des-rois.jpg", "season": "galettes", "leadDays": 1, "fr": { "name": "Galette des rois, 8 parts", "desc": "Pâte feuilletée, frangipane, la fève et la couronne." }, "en": { "name": "King cake, serves 8", "desc": "Puff pastry, almond frangipane, the charm and the paper crown." } },
+        { "id": "couronne", "price": 16.0, "photo": "/media/patisseries/couronne-des-rois.jpg", "season": "galettes", "leadDays": 1, "fr": { "name": "Couronne des rois", "desc": "Brioche en couronne, fruits confits et sucre perlé." }, "en": { "name": "Brioche king cake", "desc": "Brioche ring with candied fruit and pearl sugar." } },
+        { "id": "foret-noire", "price": 23.0, "from": true, "photo": "/media/patisseries/foret-noire.jpg", "leadDays": 2, "confirm": true, "fr": { "name": "Forêt-noire", "desc": "Génoise au chocolat, chantilly, cerises, grands copeaux de chocolat. Deux tailles." }, "en": { "name": "Black Forest gâteau", "desc": "Chocolate sponge, whipped cream, cherries, big chocolate curls. Two sizes." } },
+        { "id": "piece-montee", "price": null, "photo": "/media/patisseries/piece-montee.jpg", "orderable": false, "fr": { "name": "Pièce montée", "desc": "Pour un mariage, un baptême, une communion. Sur devis : appelez-nous ou passez en boutique." }, "en": { "name": "Croquembouche", "desc": "For weddings, christenings and communions. Quoted on request: call us or drop by." } }
+      ]
+    },
+    {
+      "id": "boissons",
+      "fr": "Boissons chaudes",
+      "en": "Hot drinks",
+      "items": [
+        { "id": "expresso", "price": 1.75, "photo": "", "orderable": false, "fr": { "name": "Café expresso", "desc": "Servi dans les tasses Cafés Richard." }, "en": { "name": "Espresso", "desc": "Served in Cafés Richard cups." } },
+        { "id": "double-expresso", "price": 3.5, "photo": "", "orderable": false, "fr": { "name": "Double expresso", "desc": "" }, "en": { "name": "Double espresso", "desc": "" } },
+        { "id": "noisette", "price": 1.85, "photo": "", "orderable": false, "fr": { "name": "Café noisette", "desc": "Un expresso, un nuage de lait." }, "en": { "name": "Café noisette", "desc": "An espresso with a dash of milk." } },
+        { "id": "grand-creme", "price": 2.8, "photo": "", "orderable": false, "fr": { "name": "Grand crème", "desc": "" }, "en": { "name": "Grand crème", "desc": "A large white coffee." } },
+        { "id": "cappuccino", "price": null, "photo": "", "orderable": false, "fr": { "name": "Cappuccino", "desc": "" }, "en": { "name": "Cappuccino", "desc": "" } },
+        { "id": "chocolat-chaud", "price": null, "photo": "", "orderable": false, "fr": { "name": "Chocolat chaud", "desc": "" }, "en": { "name": "Hot chocolate", "desc": "" } },
+        { "id": "the", "price": null, "photo": "", "orderable": false, "fr": { "name": "Thé ou infusion", "desc": "" }, "en": { "name": "Tea or herbal tea", "desc": "" } }
+      ]
+    }
+  ]
+}

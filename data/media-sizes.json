@@ -1,0 +1,98 @@
+{
+ "/media/hero/hero.jpg": [
+  1600,
+  2133
+ ],
+ "/media/pains/brioches.jpg": [
+  1600,
+  895
+ ],
+ "/media/viennoiseries/croissant-framboise-cruffin.jpg": [
+  1600,
+  1200
+ ],
+ "/media/viennoiseries/croissant-framboise.jpg": [
+  1200,
+  1600
+ ],
+ "/media/viennoiseries/cruffin.jpg": [
+  1600,
+  1600
+ ],
+ "/media/viennoiseries/pain-au-chocolat.jpg": [
+  896,
+  405
+ ],
+ "/media/viennoiseries/pain-aux-raisins.jpg": [
+  672,
+  555
+ ],
+ "/media/viennoiseries/panier-cafes.jpg": [
+  1200,
+  1600
+ ],
+ "/media/viennoiseries/panier-cappuccinos.jpg": [
+  1600,
+  1345
+ ],
+ "/media/patisseries/couronne-des-rois.jpg": [
+  880,
+  725
+ ],
+ "/media/patisseries/foret-noire.jpg": [
+  1024,
+  790
+ ],
+ "/media/patisseries/galettes-des-rois.jpg": [
+  1200,
+  1600
+ ],
+ "/media/patisseries/macarons-cafe.jpg": [
+  1059,
+  1600
+ ],
+ "/media/patisseries/macarons.jpg": [
+  1080,
+  1056
+ ],
+ "/media/patisseries/tarte-framboise.jpg": [
+  1200,
+  1600
+ ],
+ "/media/patisseries/tartelettes.jpg": [
+  1600,
+  900
+ ],
+ "/media/patisseries/tartes-pommes-foret-noire.jpg": [
+  1463,
+  1600
+ ],
+ "/media/patisseries/vitrine-eclairs.jpg": [
+  1600,
+  1200
+ ],
+ "/media/snacking/ardoise-formules.jpg": [
+  1200,
+  1600
+ ],
+ "/media/snacking/vitrine-fraiche.jpg": [
+  972,
+  768
+ ],
+ "/media/boutique/comptoir.jpg": [
+  1477,
+  1108
+ ],
+ "/media/boutique/rayons-pains.jpg": [
+  960,
+  1600
+ ],
+ "/media/facade/facade.jpg": [
+  1200,
+  1600
+ ],
+ "/media/facade/terrasse.jpg": [
+  941,
+  1004
+ ]
+}

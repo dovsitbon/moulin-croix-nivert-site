@@ -1,0 +1,13 @@
+{
+  "_doc": "Produits de saison. Un article de data/carte.json qui porte \"season\": \"<id>\" ne se commande en ligne qu'entre orderFrom et to (inclus, AAAA-MM-JJ), pour un retrait entre from et to. En dehors, il reste visible sur la carte avec la mention de la saison. Galettes : prix de la saison passée relevés sur l'étiquette en vitrine (photo Google), à confirmer. Pour les bûches de Noël : créez une saison « buches » et les articles correspondants, une fois la gamme confirmée par le boulanger.",
+  "items": [
+    {
+      "id": "galettes",
+      "from": "2026-12-26",
+      "to": "2027-01-31",
+      "orderFrom": "2026-12-01",
+      "fr": { "name": "Galettes des rois", "when": "de fin décembre à fin janvier" },
+      "en": { "name": "King cakes", "when": "late December to late January" }
+    }
+  ]
+}

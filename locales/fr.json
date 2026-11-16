@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "title": "Boulangerie à Paris 15, rue de la Croix Nivert | Le Moulin de la Croix Nivert",
+    "description": "Le Moulin de la Croix Nivert, boulangerie-pâtisserie au 39 rue de la Croix Nivert, Paris 15, près de Cambronne. Baguette tradition, viennoiseries, flan, quiches, galettes des rois. Ouvert jusqu'à 20 h 30.",
+    "ogAlt": "La vitrine des viennoiseries du Moulin de la Croix Nivert, boulangerie du 15e arrondissement",
+    "cuisines": ["Boulangerie", "Pâtisserie", "Viennoiseries", "Snacking"]
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "main": "Navigation principale",
+    "home": "accueil",
+    "pains": "Pains",
+    "viennoiseries": "Viennoiseries",
+    "patisseries": "Pâtisseries",
+    "snacking": "Snacking",
+    "order": "Commander",
+    "infos": "Infos",
+    "orderCta": "Commander",
+    "seeMenu": "Voir la carte",
+    "directions": "Itinéraire",
+    "call": "Appeler",
+    "lang": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "close": "Fermer",
+    "shortcuts": "Raccourcis"
+  },
+  "intro": {
+    "skip": "Passer",
+    "tagline": "BOULANGERIE · CROIX NIVERT"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé en ce moment",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "{count} avis",
+    "aria": "Note Google : {value} sur 5, {count} avis. Voir la fiche Google"
+  },
+  "hero": {
+    "eyebrow": "Boulangerie · Pâtisserie · Rue de la Croix Nivert",
+    "title": "Le bon pain de la Croix Nivert.",
+    "sub": "Baguette tradition, viennoiseries bien dorées, flan et quiches. Du mardi au samedi, jusqu'à 20 h 30.",
+    "alt": "La vitrine du Moulin de la Croix Nivert : brioches, pains au chocolat, pains aux raisins et croissants framboise",
+    "cta": "Voir nos produits"
+  },
+  "tiles": {
+    "title": "Nos rayons",
+    "items": {
+      "pains": "Pains & baguettes",
+      "viennoiseries": "Viennoiseries",
+      "patisseries": "Flans & pâtisseries",
+      "snacking": "Quiches & snacking",
+      "gateaux": "Gâteaux sur commande"
+    }
+  },
+  "services": {
+    "title": "Au Moulin",
+    "items": [
+      { "t": "Fait maison, chaque jour", "p": "Pains, viennoiseries et gâteaux sortent du fournil." },
+      { "t": "Ouvert jusqu'à 20 h 30", "p": "Du mardi au samedi. Le dimanche, jusqu'à 14 h." },
+      { "t": "Le midi", "p": "Quiches, sandwichs et formules à emporter." },
+      { "t": "Sur commande", "p": "Gâteaux, galettes, plateaux pour le bureau." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Ce qui sort du four.",
+    "intro": "Ajoutez à votre commande, choisissez l'heure, passez prendre. Les prix sont ceux de la boutique.",
+    "tablist": "Rubriques de la carte",
+    "add": "Ajouter",
+    "inCart": "Dans la commande",
+    "addAria": "Ajouter {name} à la commande",
+    "removeAria": "Retirer : {name}",
+    "priceOnSite": "Prix en boutique",
+    "signature": "Incontournable",
+    "from": "à partir de",
+    "lead": "{n} h à l'avance",
+    "seasonLater": "En boutique {when}",
+    "gateauxNote": "Les gâteaux se commandent au moins 48 heures à l'avance, les galettes la veille. Pour une pièce montée ou un gâteau d'anniversaire, appelez-nous : on en parle ensemble.",
+    "seeAll": "Toute la rubrique",
+    "checked": "Prix relevés le {date}, à titre indicatif : le prix affiché en boutique fait foi.",
+    "photoSoon": "Photo à venir"
+  },
+  "cartBar": {
+    "items": "{n} article(s) dans votre commande",
+    "view": "Voir ma commande"
+  },
+  "photoSlots": {
+    "tradition": "Photo à venir : la baguette tradition",
+    "flan": "Photo à venir : le flan",
+    "quiche": "Photo à venir : les quiches",
+    "plateau": "Photo à venir : un plateau pour le bureau"
+  },
+  "blocks": [
+    {
+      "eyebrow": "Les pains",
+      "title": "La tradition, croustillante jusqu'au soir.",
+      "text": "On vient pour elle le matin, on repasse en rentrant du travail. Croûte dorée, mie crème, et des fournées jusqu'à la fermeture. À côté : le pain Nordik aux graines et de grosses brioches pour le week-end.",
+      "cta": "Voir les pains"
+    },
+    {
+      "eyebrow": "Viennoiseries & flan",
+      "title": "Du beurre, du feuilletage, et le flan.",
+      "text": "Croissant, pain au chocolat, croissant framboise rayé de rouge, pain aux raisins. Et le flan pâtissier, haut et tremblant, que les habitués prennent à la part ou entier.",
+      "cta": "Voir les viennoiseries"
+    },
+    {
+      "eyebrow": "Le midi",
+      "title": "Une quiche, un sandwich, et on y retourne.",
+      "text": "Pour ceux qui travaillent dans le quartier : quiches, sandwichs sur baguette, croque-monsieur et formules avec boisson. Commandez avant, c'est prêt quand vous passez.",
+      "cta": "Voir les formules"
+    }
+  ],
+  "orders": {
+    "eyebrow": "Sur commande",
+    "title": "Pour les grandes occasions, et les petites.",
+    "intro": "Un anniversaire, l'Épiphanie, une réunion d'équipe : passez commande, on prépare, vous retirez en boutique.",
+    "cards": [
+      { "title": "Gâteaux", "text": "Forêt-noire, pièces montées et autres gâteaux sur demande. 48 heures à l'avance.", "cta": "Voir les gâteaux" },
+      { "title": "Galettes des rois", "text": "Frangipane et pâte feuilletée, de 4 à 8 parts, et la couronne briochée aux fruits confits.", "cta": "Voir les galettes" },
+      { "title": "Plateaux pour le bureau", "text": "Viennoiseries, mini-quiches, sandwichs : dites-nous combien vous serez.", "cta": "Faire une demande" }
+    ],
+    "season": "En boutique {when}",
+    "callLine": "Une question sur une commande ? Appelez-nous au"
+  },
+  "order": {
+    "cart": "Votre commande",
+    "empty": "Votre commande est vide pour l'instant.",
+    "toMenu": "Choisir sur la carte",
+    "addMore": "Ajouter autre chose",
+    "total": "Total estimé",
+    "pickupDay": "Jour de retrait",
+    "pickupTime": "Heure de retrait",
+    "submit": "Envoyer ma commande",
+    "messagePh": "Message sur le gâteau, tranché ou non, allergie…",
+    "payOnSite": "Paiement en boutique, au moment du retrait.",
+    "leadNote": "Votre commande contient un gâteau à préparer : retrait possible au plus tôt dans {n} heures.",
+    "aside": "Commande prête à l'heure choisie. Pour le jour même, comptez au moins 30 minutes.",
+    "doneTitle": "Commande envoyée, merci !",
+    "done": "La boulangerie a bien reçu votre commande. S'il manque quelque chose, on vous rappelle. Un récapitulatif part aussi sur votre e-mail, si vous l'avez donné.",
+    "doneNoMail": "Votre commande est prête à partir, mais l'envoi automatique n'est pas encore branché. Pour être sûr qu'elle soit prise en compte, appelez la boulangerie avec ce récapitulatif sous les yeux.",
+    "mail": {
+      "subject": "Commande à retirer",
+      "title": "Nouvelle commande à retirer",
+      "lines": "Articles",
+      "pickup": "Retrait",
+      "total": "Total estimé",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Remarques",
+      "lang": "Langue du client",
+      "confirmSubject": "Le Moulin de la Croix Nivert : votre commande",
+      "confirmIntro": "Bonjour {name}, merci pour votre commande. La voici :",
+      "confirmOutro": "À bientôt au 39 rue de la Croix Nivert, Paris 15. Une question ? 01 47 83 30 10."
+    }
+  },
+  "trays": {
+    "eyebrow": "Entreprises",
+    "title": "Des plateaux pour le bureau.",
+    "intro": "Petit-déjeuner d'équipe, réunion, pot de départ : dites-nous la date, le nombre de personnes et ce qui vous ferait plaisir. On vous répond avec une proposition et un prix.",
+    "points": [
+      "Viennoiseries classiques ou mini-viennoiseries",
+      "Mini-quiches, sandwichs, pâtisseries à partager",
+      "Retrait en boutique, livraison dans le quartier à voir ensemble"
+    ],
+    "note": "Les plateaux se font sur demande : composition et prix vous sont confirmés par la boulangerie.",
+    "kind": "L'occasion",
+    "kinds": {
+      "breakfast": "Petit-déjeuner d'équipe",
+      "lunch": "Déjeuner",
+      "meeting": "Réunion, séminaire",
+      "party": "Pot, anniversaire",
+      "other": "Autre"
+    },
+    "wantsLegend": "Ce qui vous ferait plaisir",
+    "wants": {
+      "viennoiseries": "Viennoiseries",
+      "miniViennoiseries": "Mini-viennoiseries",
+      "miniQuiches": "Mini-quiches",
+      "sandwiches": "Sandwichs",
+      "patisseries": "Pâtisseries",
+      "drinks": "Jus d'orange"
+    },
+    "date": "Date",
+    "time": "Heure souhaitée",
+    "guests": "Nombre de personnes",
+    "submit": "Envoyer la demande",
+    "messagePh": "Société, retrait ou livraison, budget, allergies…",
+    "small": "Pour moins de {n} personnes, commandez directement en ligne.",
+    "doneTitle": "Demande envoyée, merci !",
+    "done": "La boulangerie revient vers vous par téléphone ou par e-mail avec une proposition.",
+    "doneNoMail": "Votre demande est prête, mais l'envoi automatique n'est pas encore branché. Appelez la boulangerie avec ce récapitulatif pour l'organiser ensemble.",
+    "mail": {
+      "subject": "Demande de plateaux",
+      "title": "Nouvelle demande de plateaux",
+      "date": "Date",
+      "kind": "Occasion",
+      "guests": "Personnes",
+      "wants": "Souhaits",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "confirmSubject": "Le Moulin de la Croix Nivert : votre demande de plateaux",
+      "confirmIntro": "Bonjour {name}, merci pour votre demande. La voici :",
+      "confirmOutro": "La boulangerie vous recontacte rapidement avec une proposition. Le Moulin de la Croix Nivert, 39 rue de la Croix Nivert, Paris 15 · 01 47 83 30 10."
+    }
+  },
+  "form": {
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "message": "Remarques",
+    "optional": "facultatif",
+    "chooseTime": "Choisir une heure",
+    "noTime": "Plus de créneau ce jour-là",
+    "sending": "Envoi…",
+    "failed": "L'envoi n'a pas marché. Réessayez, ou appelez la boulangerie.",
+    "orCall": "Ou appelez le",
+    "privacy": "Vos coordonnées servent uniquement à traiter cette demande.",
+    "again": "Nouvelle demande",
+    "errors": {
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "emailRequired": "Indiquez votre e-mail, pour recevoir la proposition.",
+      "time": "Choisissez une heure.",
+      "cart": "Ajoutez au moins un article depuis la carte.",
+      "date": "Choisissez une date.",
+      "guests": "Indiquez le nombre de personnes.",
+      "kind": "Choisissez l'occasion."
+    }
+  },
+  "reviews": {
+    "eyebrow": "Avis",
+    "title": "Ce qu'en dit le quartier.",
+    "intro": "{value}/5 sur Google, {count} avis. La baguette, les viennoiseries et le flan reviennent souvent. On reprendra ici, avec leur accord, quelques mots de clients.",
+    "slot": "Avis client à venir",
+    "google": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Passer nous voir.",
+    "address": "Adresse",
+    "metro": "Métro",
+    "stations": [
+      { "name": "Cambronne", "line": "Ligne 6", "walk": "5 min à pied" },
+      { "name": "Commerce", "line": "Ligne 8", "walk": "5 min à pied" },
+      { "name": "La Motte-Picquet–Grenelle", "line": "Lignes 6, 8, 10", "walk": "6 min à pied" }
+    ],
+    "hours": "Horaires",
+    "phone": "Téléphone",
+    "onSite": "Salon de thé",
+    "onSiteText": "Quelques tables pour un café et une viennoiserie, ou la formule petit-déjeuner.",
+    "closed": "Fermé",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "mapTitle": "Plan d'accès au Moulin de la Croix Nivert, 39 rue de la Croix Nivert",
+    "mapLoad": "Afficher le plan Google Maps",
+    "mapNote": "Le plan est chargé depuis Google Maps quand vous cliquez."
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Bon à savoir.",
+    "items": [
+      { "q": "Quels sont vos horaires ?", "a": "Du mardi au samedi de 7 h à 20 h 30, le dimanche de 7 h à 14 h. Fermé le lundi. Les fermetures exceptionnelles et les congés sont annoncés en haut du site." },
+      { "q": "Combien de temps à l'avance faut-il commander ?", "a": "Pour les pains, viennoiseries et quiches, commandez en ligne au moins 30 minutes avant de passer. Les gâteaux se commandent 48 heures à l'avance, les galettes des rois la veille. Pour une pièce montée, appelez-nous le plus tôt possible." },
+      { "q": "Où trouver la liste des allergènes ?", "a": "Les allergènes sont indiqués sur les étiquettes en vitrine. En cas d'allergie, dites-le au comptoir ou dans les remarques de votre commande : on vous répond produit par produit." },
+      { "q": "Faites-vous des plateaux pour les bureaux ?", "a": "Oui, sur demande : viennoiseries, mini-quiches, sandwichs et pâtisseries pour les petits-déjeuners d'équipe, réunions et pots. Envoyez la date et le nombre de personnes depuis la page Plateaux, on vous propose une composition et un prix." },
+      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Le paiement se fait en boutique, sur place ou au retrait de votre commande. Les titres-restaurant sont acceptés pour le snacking du midi." },
+      { "q": "Peut-on manger sur place ?", "a": "Oui, il y a quelques tables. La formule petit-déjeuner (boisson chaude, jus d'orange, viennoiserie) est à 5,20 €, la formule brunch à 11,80 €." }
+    ]
+  },
+  "footer": {
+    "tagline": "Boulangerie-pâtisserie de quartier, au 39 rue de la Croix Nivert. Maison Boullier.",
+    "hours": "Horaires",
+    "tueSat": "Mardi – samedi",
+    "sunday": "Dimanche",
+    "monday": "Lundi",
+    "pages": "La boulangerie",
+    "legal": "Mentions légales",
+    "googleListing": "Fiche Google",
+    "rights": "Le Moulin de la Croix Nivert, Paris 15."
+  },
+  "pageEyebrow": "Le Moulin de la Croix Nivert · Paris 15",
+  "pages": {
+    "carte": {
+      "title": "La carte",
+      "metaTitle": "Carte et prix : pains, viennoiseries, flan, quiches | Le Moulin de la Croix Nivert, Paris 15",
+      "metaDescription": "La carte de la boulangerie Le Moulin de la Croix Nivert : baguette tradition, croissants, pains au chocolat, flan, éclairs, quiches, formules du midi, galettes des rois. Prix et commande à retirer.",
+      "h1": "La carte",
+      "intro": "Pains, viennoiseries, pâtisseries, snacking du midi et gâteaux sur commande. Ajoutez à votre commande et passez prendre en boutique."
+    },
+    "commander": {
+      "title": "Commander",
+      "metaTitle": "Commander à retirer en boutique | Le Moulin de la Croix Nivert, Paris 15",
+      "metaDescription": "Commandez vos pains, viennoiseries, quiches, gâteaux et galettes des rois au Moulin de la Croix Nivert, 39 rue de la Croix Nivert. Choisissez l'heure de retrait, payez en boutique.",
+      "h1": "Commander",
+      "intro": "Votre commande, le jour et l'heure de retrait, votre nom : c'est tout. Paiement en boutique quand vous passez."
+    },
+    "plateaux": {
+      "title": "Plateaux entreprises",
+      "metaTitle": "Plateaux viennoiseries et mini-quiches pour le bureau | Boulangerie Paris 15, Le Moulin de la Croix Nivert",
+      "metaDescription": "Petit-déjeuner d'équipe, réunion ou pot de départ dans le 15e : demandez vos plateaux de viennoiseries, mini-quiches, sandwichs et pâtisseries au Moulin de la Croix Nivert.",
+      "h1": "Plateaux pour les entreprises",
+      "intro": "Viennoiseries, mini-quiches, sandwichs et pâtisseries pour vos équipes. Donnez-nous la date et le nombre de personnes, on vous propose le reste."
+    },
+    "paris15": {
+      "title": "Boulangerie Paris 15",
+      "metaTitle": "Boulangerie Paris 15 : baguette tradition, viennoiseries, flan | Le Moulin de la Croix Nivert",
+      "metaDescription": "Boulangerie-pâtisserie du 15e arrondissement, rue de la Croix Nivert : baguette tradition, viennoiseries, flan, quiches, gâteaux sur commande. Ouvert jusqu'à 20 h 30, 4,5/5 sur Google.",
+      "h1": "Boulangerie à Paris 15",
+      "intro": "Une boulangerie de quartier dans le 15e, ouverte tôt et tard, avec ce qu'on attend d'elle : du bon pain, des viennoiseries dorées et des gâteaux pour le week-end.",
+      "sections": [
+        { "h": "La baguette tradition du 15e", "p": ["C'est le produit qui revient le plus dans les avis. Croûte qui craque, mie crème, et des fournées jusqu'au soir pour ceux qui rentrent tard.", "À côté de la tradition : la baguette, le pain Nordik aux graines, des brioches, et le pain du jour selon les fournées."] },
+        { "h": "Viennoiseries, flan, éclairs", "p": ["Croissants, pains au chocolat, pains aux raisins, croissants framboise : la vitrine du matin. L'après-midi, c'est le flan pâtissier, les éclairs, les tartelettes aux framboises et les macarons."] },
+        { "h": "Ouvert jusqu'à 20 h 30", "p": ["Du mardi au samedi, de 7 h à 20 h 30. Le dimanche, de 7 h à 14 h. Fermé le lundi. Pour ne pas attendre, commandez en ligne et passez prendre à l'heure choisie."] }
+      ]
+    },
+    "cambronne": {
+      "title": "Boulangerie Cambronne",
+      "metaTitle": "Boulangerie près du métro Cambronne : Le Moulin de la Croix Nivert, Paris 15",
+      "metaDescription": "Boulangerie à 5 minutes du métro Cambronne (ligne 6), au 39 rue de la Croix Nivert : baguette tradition, viennoiseries, quiches et formules du midi, ouvert jusqu'à 20 h 30.",
+      "h1": "Boulangerie à Cambronne",
+      "intro": "À quelques minutes du métro Cambronne, dans le bas de la rue de la Croix Nivert. Le pain du matin, le déjeuner du midi, la baguette du soir.",
+      "sections": [
+        { "h": "À la sortie du métro", "p": ["Depuis la station Cambronne (ligne 6), comptez environ cinq minutes à pied. Les stations Commerce (ligne 8) et La Motte-Picquet–Grenelle (lignes 6, 8, 10) sont à peu près à la même distance."] },
+        { "h": "Le midi, pour les bureaux du quartier", "p": ["Quiches, sandwichs sur baguette, croque-monsieur et formules avec boisson, à emporter. Pour une réunion ou un petit-déjeuner d'équipe, demandez un plateau de viennoiseries ou de mini-quiches."] },
+        { "h": "Le matin et le soir", "p": ["Ouverture à 7 h pour le café et la viennoiserie, fermeture à 20 h 30 pour la baguette du dîner. La formule petit-déjeuner est à 5,20 €."] }
+      ]
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | Le Moulin de la Croix Nivert",
+      "metaDescription": "Mentions légales du site du Moulin de la Croix Nivert, boulangerie au 39 rue de la Croix Nivert, Paris 15.",
+      "h1": "Mentions légales"
+    }
+  },
+  "legal": {
+    "editor": "Éditeur du site",
+    "siret": "SIRET",
+    "director": "Directeur de la publication",
+    "host": "Hébergement",
+    "photos": "Photos",
+    "photosText": "Photos de la boutique et des produits du Moulin de la Croix Nivert.",
+    "data": "Données personnelles",
+    "dataText": "Les informations envoyées par les formulaires (nom, téléphone, e-mail, commande) servent uniquement à traiter votre demande. Elles ne sont ni revendues ni utilisées à des fins publicitaires. Le site ne dépose aucun cookie de mesure d'audience. Pour toute demande d'accès ou de suppression, contactez la boulangerie.",
+    "toFill": "À compléter"
+  },
+  "alt": {
+    "hero": "La vitrine du matin : brioches, pains au chocolat, pains aux raisins et croissants framboise",
+    "hero-tradition": "Baguettes tradition et croissants dorés sur le comptoir de la boulangerie",
+    "brioches": "Deux grosses brioches dorées sur l'étagère de la vitrine",
+    "rayons-pains": "Les rayons de la boutique : baguettes debout, pains et viennoiseries derrière la vitrine",
+    "comptoir": "L'intérieur de la boulangerie : vitrines réfrigérées, comptoir et mur de couleur framboise",
+    "facade": "Façade noire du Moulin de la Croix Nivert, enseigne en lettres blanches et store « Maison Boullier »",
+    "terrasse": "Un expresso et des croissants servis près de la vitrine",
+    "croissant-framboise-cruffin": "Un croissant framboise rayé de rouge et un cruffin sucré garni de crème",
+    "croissant-framboise": "Croissant framboise, la pâte feuilletée rayée de rouge",
+    "cruffin": "Cruffin en spirale, sucré, dans son papier",
+    "panier-cafes": "Panier de croissant, pain au chocolat et cruffin, avec un café et un cappuccino",
+    "panier-cappuccinos": "Panier de viennoiseries et deux cappuccinos sur un plateau",
+    "pain-aux-raisins": "Pains aux raisins et croissants dans la vitrine, avec leurs étiquettes",
+    "pain-au-chocolat": "Pains au chocolat alignés dans la vitrine",
+    "tartes-pommes-foret-noire": "Tartes aux pommes en rosace et deux forêts-noires dans la vitrine",
+    "vitrine-eclairs": "La vitrine des pâtisseries : éclairs au chocolat et au café, tartelettes aux framboises, financiers",
+    "tartelettes": "Tartelettes aux myrtilles, au chocolat et au citron dans la vitrine",
+    "tarte-framboise": "Tartelette aux framboises avec son étiquette Le Moulin de la Croix Nivert",
+    "macarons": "Plateau de macarons jaunes, framboise, pistache et vanille",
+    "macarons-cafe": "Deux macarons, pistache et café, et un café à emporter",
+    "galettes-des-rois": "Galettes des rois et couronnes dans la vitrine, avec l'étiquette des prix",
+    "couronne-des-rois": "Couronne des rois briochée aux fruits confits, à côté des galettes",
+    "foret-noire": "Deux forêts-noires couronnées de grands copeaux de chocolat",
+    "vitrine-fraiche": "La vitrine réfrigérée : sandwichs, salades et jus de fruits",
+    "ardoise-formules": "L'ardoise des formules petit-déjeuner et brunch",
+    "baguette-tradition": "Baguettes tradition à la croûte dorée",
+    "baguette": "Baguettes alignées dans leur panier",
+    "pain-nordik": "Pain Nordik aux graines, tranché",
+    "flan": "Flan pâtissier entier et une part découpée",
+    "quiche": "Quiche lorraine dorée, une part découpée",
+    "croque-monsieur": "Croque-monsieur gratiné",
+    "salade": "Salade en barquette, prête à emporter",
+    "meringue": "Meringues blanches dans la vitrine",
+    "chausson-aux-pommes": "Chaussons aux pommes à la pâte feuilletée rayée",
+    "piece-montee": "Pièce montée de choux caramélisés",
+    "plateau-bureau": "Plateau de mini-viennoiseries et de mini-quiches pour une réunion"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "_doc": "Avis clients affichés sur l'accueil. AUCUN avis inventé : à remplir uniquement avec de vrais avis (Google ou autres), recopiés avec l'accord de leur auteur ou de la boulangerie. Format : { \"name\": \"Prénom N.\", \"date\": \"AAAA-MM-01\", \"source\": \"Google\", \"rating\": 5, \"fr\": \"texte\", \"en\": \"traduction\" }. Tant que la liste est vide, le site affiche des emplacements.",
+  "items": []
+}

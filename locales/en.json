@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "title": "Bakery in Paris 15, rue de la Croix Nivert | Le Moulin de la Croix Nivert",
+    "description": "Le Moulin de la Croix Nivert, a neighbourhood bakery at 39 rue de la Croix Nivert, Paris 15, near Cambronne. Baguette tradition, croissants, flan, quiches, king cakes. Open until 8:30 pm.",
+    "ogAlt": "The pastry counter at Le Moulin de la Croix Nivert, a bakery in Paris's 15th arrondissement",
+    "cuisines": ["Bakery", "Pâtisserie", "Viennoiserie", "Lunch"]
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "main": "Main navigation",
+    "home": "home",
+    "pains": "Bread",
+    "viennoiseries": "Pastries",
+    "patisseries": "Cakes & tarts",
+    "snacking": "Lunch",
+    "order": "Order",
+    "infos": "Visit",
+    "orderCta": "Order",
+    "seeMenu": "See the menu",
+    "directions": "Directions",
+    "call": "Call",
+    "lang": "Language",
+    "openMenu": "Open menu",
+    "close": "Close",
+    "shortcuts": "Shortcuts"
+  },
+  "intro": {
+    "skip": "Skip",
+    "tagline": "BOULANGERIE · CROIX NIVERT"
+  },
+  "announce": {
+    "close": "Close this banner"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed right now",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "rating": {
+    "label": "{value}/5 on Google",
+    "count": "{count} reviews",
+    "aria": "Google rating: {value} out of 5, {count} reviews. See the Google listing"
+  },
+  "hero": {
+    "eyebrow": "Bakery · Pâtisserie · Rue de la Croix Nivert",
+    "title": "Good bread on the Croix Nivert.",
+    "sub": "Baguette tradition, golden pastries, flan and quiches. Tuesday to Saturday, until 8:30 pm.",
+    "alt": "The counter at Le Moulin de la Croix Nivert: brioches, pains au chocolat, pains aux raisins and raspberry croissants",
+    "cta": "See our bakes"
+  },
+  "tiles": {
+    "title": "Our counters",
+    "items": {
+      "pains": "Bread & baguettes",
+      "viennoiseries": "Pastries",
+      "patisseries": "Flan & cakes",
+      "snacking": "Quiche & lunch",
+      "gateaux": "Cakes to order"
+    }
+  },
+  "services": {
+    "title": "At the Moulin",
+    "items": [
+      { "t": "Baked here, every day", "p": "Bread, pastries and cakes come straight from our ovens." },
+      { "t": "Open until 8:30 pm", "p": "Tuesday to Saturday. Sundays until 2 pm." },
+      { "t": "Lunchtime", "p": "Quiches, sandwiches and set menus to take away." },
+      { "t": "To order", "p": "Cakes, king cakes, office platters." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Fresh out of the oven.",
+    "intro": "Add to your order, pick a time, collect in store. Prices are the shop's own.",
+    "tablist": "Menu sections",
+    "add": "Add",
+    "inCart": "In your order",
+    "addAria": "Add {name} to your order",
+    "removeAria": "Remove: {name}",
+    "priceOnSite": "Price in store",
+    "signature": "Must-try",
+    "from": "from",
+    "lead": "{n} h notice",
+    "seasonLater": "In store {when}",
+    "gateauxNote": "Cakes need at least 48 hours' notice, king cakes the day before. For a croquembouche or a birthday cake, give us a call and we'll talk it through.",
+    "seeAll": "The whole section",
+    "checked": "Prices noted on {date}, for guidance only: the price shown in store applies.",
+    "photoSoon": "Photo coming soon"
+  },
+  "cartBar": {
+    "items": "{n} item(s) in your order",
+    "view": "View my order"
+  },
+  "photoSlots": {
+    "tradition": "Photo coming soon: the baguette tradition",
+    "flan": "Photo coming soon: the flan",
+    "quiche": "Photo coming soon: our quiches",
+    "plateau": "Photo coming soon: an office platter"
+  },
+  "blocks": [
+    {
+      "eyebrow": "Bread",
+      "title": "The tradition, crackling until closing time.",
+      "text": "People come for it in the morning and stop by again on the way home. Golden crust, creamy crumb, and fresh batches until we close. Alongside it: seeded Nordik bread and big brioches for the weekend.",
+      "cta": "See the bread"
+    },
+    {
+      "eyebrow": "Pastries & flan",
+      "title": "Butter, flaky layers, and the flan.",
+      "text": "Croissant, pain au chocolat, red-striped raspberry croissant, pain aux raisins. And the flan pâtissier, tall and wobbly, which regulars buy by the slice or whole.",
+      "cta": "See the pastries"
+    },
+    {
+      "eyebrow": "Lunchtime",
+      "title": "A quiche, a sandwich, back to work.",
+      "text": "For everyone working nearby: quiches, baguette sandwiches, croque-monsieur and set menus with a drink. Order ahead and it's ready when you arrive.",
+      "cta": "See the set menus"
+    }
+  ],
+  "orders": {
+    "eyebrow": "To order",
+    "title": "For big occasions, and small ones.",
+    "intro": "A birthday, Epiphany, a team meeting: place your order, we bake it, you collect it in store.",
+    "cards": [
+      { "title": "Cakes", "text": "Black Forest, croquembouches and other cakes on request. 48 hours' notice.", "cta": "See the cakes" },
+      { "title": "King cakes", "text": "Frangipane in puff pastry, serving 4 to 8, plus the brioche crown with candied fruit.", "cta": "See the king cakes" },
+      { "title": "Office platters", "text": "Pastries, mini quiches, sandwiches: tell us how many of you there will be.", "cta": "Send a request" }
+    ],
+    "season": "In store {when}",
+    "callLine": "A question about an order? Call us on"
+  },
+  "order": {
+    "cart": "Your order",
+    "empty": "Your order is empty for now.",
+    "toMenu": "Choose from the menu",
+    "addMore": "Add something else",
+    "total": "Estimated total",
+    "pickupDay": "Collection day",
+    "pickupTime": "Collection time",
+    "submit": "Send my order",
+    "messagePh": "Message on the cake, sliced or not, allergies…",
+    "payOnSite": "Pay in store when you collect.",
+    "leadNote": "Your order includes a cake made to order: earliest collection in {n} hours.",
+    "aside": "Ready at the time you choose. For same-day orders, allow at least 30 minutes.",
+    "doneTitle": "Order sent, thank you!",
+    "done": "The bakery has received your order. If anything is missing, we'll call you. A summary is also on its way to your email, if you gave it.",
+    "doneNoMail": "Your order is ready to go, but automatic sending isn't switched on yet. To make sure it's taken into account, please call the bakery with this summary to hand.",
+    "mail": {
+      "subject": "Collection order",
+      "title": "New collection order",
+      "lines": "Items",
+      "pickup": "Collection",
+      "total": "Estimated total",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Notes",
+      "lang": "Customer language",
+      "confirmSubject": "Le Moulin de la Croix Nivert: your order",
+      "confirmIntro": "Hello {name}, thank you for your order. Here it is:",
+      "confirmOutro": "See you soon at 39 rue de la Croix Nivert, Paris 15. Any questions? +33 1 47 83 30 10."
+    }
+  },
+  "trays": {
+    "eyebrow": "Businesses",
+    "title": "Platters for the office.",
+    "intro": "Team breakfast, meeting, leaving drinks: tell us the date, the number of people and what you'd like. We'll come back with a suggestion and a price.",
+    "points": [
+      "Classic pastries or mini pastries",
+      "Mini quiches, sandwiches, cakes to share",
+      "Collection in store, local delivery to discuss"
+    ],
+    "note": "Platters are made on request: the bakery confirms the selection and price with you.",
+    "kind": "The occasion",
+    "kinds": {
+      "breakfast": "Team breakfast",
+      "lunch": "Lunch",
+      "meeting": "Meeting, seminar",
+      "party": "Drinks, birthday",
+      "other": "Other"
+    },
+    "wantsLegend": "What you'd like",
+    "wants": {
+      "viennoiseries": "Pastries",
+      "miniViennoiseries": "Mini pastries",
+      "miniQuiches": "Mini quiches",
+      "sandwiches": "Sandwiches",
+      "patisseries": "Cakes & tarts",
+      "drinks": "Orange juice"
+    },
+    "date": "Date",
+    "time": "Preferred time",
+    "guests": "Number of people",
+    "submit": "Send my request",
+    "messagePh": "Company, collection or delivery, budget, allergies…",
+    "small": "For fewer than {n} people, simply order online.",
+    "doneTitle": "Request sent, thank you!",
+    "done": "The bakery will get back to you by phone or email with a suggestion.",
+    "doneNoMail": "Your request is ready, but automatic sending isn't switched on yet. Please call the bakery with this summary to organise it together.",
+    "mail": {
+      "subject": "Platter request",
+      "title": "New platter request",
+      "date": "Date",
+      "kind": "Occasion",
+      "guests": "People",
+      "wants": "Would like",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "confirmSubject": "Le Moulin de la Croix Nivert: your platter request",
+      "confirmIntro": "Hello {name}, thank you for your request. Here it is:",
+      "confirmOutro": "The bakery will be in touch shortly with a suggestion. Le Moulin de la Croix Nivert, 39 rue de la Croix Nivert, Paris 15 · +33 1 47 83 30 10."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Notes",
+    "optional": "optional",
+    "chooseTime": "Choose a time",
+    "noTime": "No slots left that day",
+    "sending": "Sending…",
+    "failed": "That didn't go through. Try again, or call the bakery.",
+    "orCall": "Or call",
+    "privacy": "Your details are only used to handle this request.",
+    "again": "New request",
+    "errors": {
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "emailRequired": "Please enter your email so we can send you a suggestion.",
+      "time": "Please choose a time.",
+      "cart": "Add at least one item from the menu.",
+      "date": "Please choose a date.",
+      "guests": "Please enter the number of people.",
+      "kind": "Please choose the occasion."
+    }
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What the neighbourhood says.",
+    "intro": "{value}/5 on Google, {count} reviews. The baguette, the pastries and the flan come up again and again. With their permission, we'll share a few customers' words here.",
+    "slot": "Customer review coming soon",
+    "google": "Read the Google reviews"
+  },
+  "infos": {
+    "eyebrow": "Visit",
+    "title": "Come and see us.",
+    "address": "Address",
+    "metro": "Metro",
+    "stations": [
+      { "name": "Cambronne", "line": "Line 6", "walk": "5 min walk" },
+      { "name": "Commerce", "line": "Line 8", "walk": "5 min walk" },
+      { "name": "La Motte-Picquet–Grenelle", "line": "Lines 6, 8, 10", "walk": "6 min walk" }
+    ],
+    "hours": "Opening hours",
+    "phone": "Phone",
+    "onSite": "Tea room",
+    "onSiteText": "A few tables for a coffee and a croissant, or the breakfast deal.",
+    "closed": "Closed",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "mapTitle": "Map to Le Moulin de la Croix Nivert, 39 rue de la Croix Nivert",
+    "mapLoad": "Show the Google map",
+    "mapNote": "The map loads from Google Maps when you click."
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Good to know.",
+    "items": [
+      { "q": "What are your opening hours?", "a": "Tuesday to Saturday, 7 am to 8:30 pm; Sunday, 7 am to 2 pm. Closed on Mondays. Holidays and exceptional closures are announced at the top of the site." },
+      { "q": "How far ahead should I order?", "a": "For bread, pastries and quiches, order online at least 30 minutes before you come. Cakes need 48 hours' notice, king cakes the day before. For a croquembouche, call us as early as you can." },
+      { "q": "Where can I find allergen information?", "a": "Allergens are listed on the labels in our counter. If you have an allergy, tell us at the counter or in your order notes and we'll answer product by product." },
+      { "q": "Do you make platters for offices?", "a": "Yes, on request: pastries, mini quiches, sandwiches and cakes for team breakfasts, meetings and drinks. Send us the date and number of people from the Platters page and we'll suggest a selection and a price." },
+      { "q": "How can I pay?", "a": "Payment is made in store, when you eat in or collect your order. Meal vouchers (titres-restaurant) are accepted for lunch items." },
+      { "q": "Can I eat in?", "a": "Yes, there are a few tables. The breakfast deal (hot drink, orange juice, pastry) is €5.20, the brunch deal €11.80." }
+    ]
+  },
+  "footer": {
+    "tagline": "A neighbourhood bakery and pâtisserie at 39 rue de la Croix Nivert. Maison Boullier.",
+    "hours": "Opening hours",
+    "tueSat": "Tuesday – Saturday",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "pages": "The bakery",
+    "legal": "Legal notice",
+    "googleListing": "Google listing",
+    "rights": "Le Moulin de la Croix Nivert, Paris 15."
+  },
+  "pageEyebrow": "Le Moulin de la Croix Nivert · Paris 15",
+  "pages": {
+    "carte": {
+      "title": "The menu",
+      "metaTitle": "Menu and prices: bread, pastries, flan, quiche | Le Moulin de la Croix Nivert, Paris 15",
+      "metaDescription": "The menu at Le Moulin de la Croix Nivert bakery: baguette tradition, croissants, pains au chocolat, flan, éclairs, quiches, lunch deals, king cakes. Prices and click & collect.",
+      "h1": "The menu",
+      "intro": "Bread, pastries, cakes, lunch and cakes to order. Add to your order and collect in store."
+    },
+    "commander": {
+      "title": "Order",
+      "metaTitle": "Order for collection | Le Moulin de la Croix Nivert, Paris 15",
+      "metaDescription": "Order bread, pastries, quiches, cakes and king cakes from Le Moulin de la Croix Nivert, 39 rue de la Croix Nivert. Choose your collection time, pay in store.",
+      "h1": "Order",
+      "intro": "Your order, a collection day and time, your name: that's all. Pay in store when you come by."
+    },
+    "plateaux": {
+      "title": "Office platters",
+      "metaTitle": "Pastry and mini quiche platters for the office | Paris 15 bakery, Le Moulin de la Croix Nivert",
+      "metaDescription": "Team breakfast, meeting or leaving drinks in the 15th: request platters of pastries, mini quiches, sandwiches and cakes from Le Moulin de la Croix Nivert.",
+      "h1": "Platters for businesses",
+      "intro": "Pastries, mini quiches, sandwiches and cakes for your team. Give us the date and the number of people, we'll suggest the rest."
+    },
+    "paris15": {
+      "title": "Bakery Paris 15",
+      "metaTitle": "Bakery in Paris 15: baguette tradition, pastries, flan | Le Moulin de la Croix Nivert",
+      "metaDescription": "A neighbourhood bakery in Paris's 15th arrondissement, rue de la Croix Nivert: baguette tradition, croissants, flan, quiches, cakes to order. Open until 8:30 pm, rated 4.5/5 on Google.",
+      "h1": "Bakery in Paris 15",
+      "intro": "A neighbourhood bakery in the 15th, open early and late, with everything you'd hope for: good bread, golden pastries and cakes for the weekend.",
+      "sections": [
+        { "h": "The 15th's baguette tradition", "p": ["It's the product that comes up most in our reviews. A crust that crackles, a creamy crumb, and fresh batches into the evening for people who get home late.", "Alongside the tradition: the classic baguette, seeded Nordik bread, brioches, and the bread of the day."] },
+        { "h": "Pastries, flan, éclairs", "p": ["Croissants, pains au chocolat, pains aux raisins, raspberry croissants: that's the morning counter. In the afternoon, it's the flan pâtissier, éclairs, raspberry tartlets and macarons."] },
+        { "h": "Open until 8:30 pm", "p": ["Tuesday to Saturday, 7 am to 8:30 pm. Sunday, 7 am to 2 pm. Closed on Mondays. To skip the queue, order online and collect at the time you choose."] }
+      ]
+    },
+    "cambronne": {
+      "title": "Bakery Cambronne",
+      "metaTitle": "Bakery near Cambronne metro: Le Moulin de la Croix Nivert, Paris 15",
+      "metaDescription": "A bakery 5 minutes from Cambronne metro (line 6), at 39 rue de la Croix Nivert: baguette tradition, pastries, quiches and lunch deals, open until 8:30 pm.",
+      "h1": "Bakery near Cambronne",
+      "intro": "A few minutes from Cambronne metro, at the lower end of rue de la Croix Nivert. Morning bread, lunch at midday, a baguette for dinner.",
+      "sections": [
+        { "h": "Just off the metro", "p": ["From Cambronne station (line 6), it's about a five-minute walk. Commerce (line 8) and La Motte-Picquet–Grenelle (lines 6, 8, 10) are roughly the same distance."] },
+        { "h": "Lunch for local offices", "p": ["Quiches, baguette sandwiches, croque-monsieur and deals with a drink, to take away. For a meeting or a team breakfast, ask for a platter of pastries or mini quiches."] },
+        { "h": "Morning and evening", "p": ["We open at 7 am for coffee and a croissant, and close at 8:30 pm for the dinner baguette. The breakfast deal is €5.20."] }
+      ]
+    },
+    "legal": {
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | Le Moulin de la Croix Nivert",
+      "metaDescription": "Legal notice for the website of Le Moulin de la Croix Nivert, a bakery at 39 rue de la Croix Nivert, Paris 15.",
+      "h1": "Legal notice"
+    }
+  },
+  "legal": {
+    "editor": "Publisher",
+    "siret": "SIRET",
+    "director": "Publication director",
+    "host": "Hosting",
+    "photos": "Photos",
+    "photosText": "Photos of the shop and products of Le Moulin de la Croix Nivert.",
+    "data": "Personal data",
+    "dataText": "Information sent through the forms (name, phone, email, order) is only used to handle your request. It is never sold or used for advertising. The site sets no analytics cookies. To access or delete your data, contact the bakery.",
+    "toFill": "To be completed"
+  },
+  "alt": {
+    "hero": "The morning counter: brioches, pains au chocolat, pains aux raisins and raspberry croissants",
+    "hero-tradition": "Baguettes tradition and golden croissants on the bakery counter",
+    "brioches": "Two big golden brioches on the counter shelf",
+    "rayons-pains": "Inside the shop: baguettes standing on the shelves, bread and pastries behind the counter",
+    "comptoir": "Inside the bakery: chilled counters and a raspberry-coloured wall",
+    "facade": "The black shopfront of Le Moulin de la Croix Nivert, white lettering and a \"Maison Boullier\" awning",
+    "terrasse": "An espresso and croissants served by the window",
+    "croissant-framboise-cruffin": "A red-striped raspberry croissant and a sugared cruffin filled with cream",
+    "croissant-framboise": "Raspberry croissant, the flaky pastry striped with red",
+    "cruffin": "Spiral cruffin, sugared, in its paper",
+    "panier-cafes": "A basket of croissant, pain au chocolat and cruffin, with an espresso and a cappuccino",
+    "panier-cappuccinos": "A basket of pastries and two cappuccinos on a tray",
+    "pain-aux-raisins": "Pains aux raisins and croissants in the counter, with their labels",
+    "pain-au-chocolat": "Pains au chocolat lined up in the counter",
+    "tartes-pommes-foret-noire": "Apple tarts and two Black Forest gâteaux in the counter",
+    "vitrine-eclairs": "The cake counter: chocolate and coffee éclairs, raspberry tartlets, financiers",
+    "tartelettes": "Blueberry, chocolate and lemon tartlets in the counter",
+    "tarte-framboise": "Raspberry tartlet with its Le Moulin de la Croix Nivert tag",
+    "macarons": "A tray of lemon, raspberry, pistachio and vanilla macarons",
+    "macarons-cafe": "Two macarons, pistachio and coffee, with a takeaway coffee",
+    "galettes-des-rois": "King cakes and brioche crowns in the counter, with the price label",
+    "couronne-des-rois": "Brioche king cake ring with candied fruit, next to the galettes",
+    "foret-noire": "Two Black Forest gâteaux topped with big chocolate curls",
+    "vitrine-fraiche": "The chilled counter: sandwiches, salads and fruit juices",
+    "ardoise-formules": "The breakfast and brunch deal board",
+    "baguette-tradition": "Baguettes tradition with a golden crust",
+    "baguette": "Baguettes lined up in their basket",
+    "pain-nordik": "Sliced seeded Nordik bread",
+    "flan": "A whole flan pâtissier and a slice",
+    "quiche": "A golden quiche lorraine, one slice cut",
+    "croque-monsieur": "A gratinated croque-monsieur",
+    "salade": "A salad in a takeaway tub",
+    "meringue": "White meringues in the counter",
+    "chausson-aux-pommes": "Apple turnovers with scored puff pastry",
+    "piece-montee": "A croquembouche of caramelised choux",
+    "plateau-bureau": "A platter of mini pastries and mini quiches for a meeting"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_doc": "Horaires (heure de Paris). 1 = lundi … 7 = dimanche. Relevés sur la fiche Google le 2026-11-16 : du mardi au samedi 7 h – 20 h 30, le dimanche 7 h – 14 h, fermé le lundi. ATTENTION : l'affichette de la vitrine (photo de la façade) indique « Fermé dimanche et lundi » : à vérifier avec le boulanger ; si le dimanche est fermé, remplacer la ligne \"7\" par \"7\": []. closures : fermetures sur une période (congés d'été…), from / to inclus (AAAA-MM-JJ) ; le bandeau l'annonce 14 jours avant et le site affiche « Fermé » pendant la période. exceptions : un jour particulier, « closed » ou des créneaux (ex. 25 décembre). Le statut « Ouvert / Fermé » en direct et les créneaux de retrait en dépendent.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [],
+    "2": [["07:00", "20:30"]],
+    "3": [["07:00", "20:30"]],
+    "4": [["07:00", "20:30"]],
+    "5": [["07:00", "20:30"]],
+    "6": [["07:00", "20:30"]],
+    "7": [["07:00", "14:00"]]
+  },
+  "closures": [],
+  "exceptions": []
+}

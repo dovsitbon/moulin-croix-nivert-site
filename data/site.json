@@ -1,0 +1,67 @@
+{
+  "_doc": "Coordonnées et réglages généraux. rating : note Google relevée à la main (mettre à jour value, count et checked). whatsapp : portable au format international sans + (ex. 33612345678) ; vide tant que la boulangerie n'a donné que son fixe. S'il est rempli, un bouton WhatsApp apparaît et les demandes peuvent partir sur WhatsApp. instagram : vide (aucun compte trouvé le 2026-11-16) ; facebook : ancienne page « Boulangerie Boullier » liée à la fiche Google. order : commande à retirer (délai minimum avant retrait, jours proposés). trays : plateaux pour les bureaux, à confirmer avec le boulanger (confirmed = false : le site parle de « demande », sans promesse). payment.enabled : paiement en ligne, désactivé par défaut. paymentMethods : à confirmer (vide = non affiché).",
+  "name": "Le Moulin de la Croix Nivert",
+  "shortName": "Le Moulin",
+  "fullName": "Le Moulin de la Croix Nivert · Boulangerie Paris 15",
+  "url": "https://moulin-croix-nivert.vercel.app",
+  "phone": "01 47 83 30 10",
+  "phoneIntl": "+33147833010",
+  "whatsapp": "",
+  "email": "",
+  "address": {
+    "street": "39 rue de la Croix Nivert",
+    "postalCode": "75015",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "FR"
+  },
+  "geo": {
+    "lat": 48.8459466,
+    "lng": 2.2989907
+  },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Moulin+de+la+Croix+Nivert+39+rue+de+la+Croix+Nivert+75015+Paris",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Le+Moulin+de+la+Croix+Nivert+39+rue+de+la+Croix+Nivert+75015+Paris",
+  "mapsEmbed": "https://www.google.com/maps?q=Le+Moulin+de+la+Croix+Nivert,+39+rue+de+la+Croix+Nivert,+75015+Paris&z=16&output=embed",
+  "instagram": "",
+  "instagramHandle": "",
+  "facebook": "",
+  "rating": {
+    "value": 4.5,
+    "count": 743,
+    "countIsMin": false,
+    "source": "Google",
+    "checked": "2026-11-16"
+  },
+  "since": "2015-01",
+  "priceRange": "1–10 €",
+  "order": {
+    "enabled": true,
+    "leadMinutes": 30,
+    "daysAhead": 14,
+    "stepMinutes": 15,
+    "maxPerLine": 30
+  },
+  "trays": {
+    "enabled": true,
+    "confirmed": false,
+    "minGuests": 6,
+    "maxGuests": 150,
+    "daysAhead": 120
+  },
+  "payment": {
+    "enabled": false,
+    "provider": "stripe",
+    "_doc": "Paiement de la commande en ligne, plus tard : passer enabled à true et renseigner STRIPE_SECRET_KEY sur Vercel (voir app/api/paiement/route.ts)."
+  },
+  "legal": {
+    "company": "Le Moulin de la Croix Nivert",
+    "siret": "808 380 117 00016",
+    "siretChecked": "Annuaire SIRENE (INSEE), établissement actif depuis le 14/01/2015 au 39 rue de la Croix Nivert : à confirmer avec le boulanger",
+    "director": "",
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  },
+  "paymentMethods": {
+    "fr": "",
+    "en": ""
+  }
+}

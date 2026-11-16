@@ -1,0 +1,29 @@
+# Le Moulin de la Croix Nivert
+
+> Boulangerie-pâtisserie de quartier au 39 rue de la Croix Nivert, 75015 Paris, à cinq minutes des métros Cambronne (ligne 6), Commerce (ligne 8) et La Motte-Picquet–Grenelle (lignes 6, 8, 10). Baguette tradition, viennoiseries, flan pâtissier, éclairs, quiches, formules du midi, gâteaux sur commande et galettes des rois. Salon de thé avec quelques tables. Commande en ligne à retirer en boutique. Site en français et en anglais.
+
+## L'essentiel
+- Adresse : 39 rue de la Croix Nivert, 75015 Paris
+- Téléphone : 01 47 83 30 10 (+33 1 47 83 30 10)
+- Horaires : du mardi au samedi 7 h – 20 h 30, le dimanche 7 h – 14 h, fermé le lundi
+- Note Google : 4,5/5, 743 avis (relevé le 16 novembre 2026)
+- Gamme de prix : 1 à 10 €
+- Aussi appelée : Maison Boullier, Boulangerie Boullier
+- Commande à retirer avec choix du créneau ; gâteaux 48 h à l'avance, galettes la veille ; plateaux pour les entreprises sur demande
+
+## Pages
+- [Accueil](https://moulin-croix-nivert.vercel.app/fr)
+- [La carte et les prix](https://moulin-croix-nivert.vercel.app/fr/carte)
+- [Commander à retirer](https://moulin-croix-nivert.vercel.app/fr/commander)
+- [Plateaux pour les entreprises](https://moulin-croix-nivert.vercel.app/fr/plateaux-entreprises)
+- [Boulangerie Paris 15](https://moulin-croix-nivert.vercel.app/fr/boulangerie-paris-15)
+- [Boulangerie Cambronne](https://moulin-croix-nivert.vercel.app/fr/boulangerie-cambronne)
+- [English version](https://moulin-croix-nivert.vercel.app/en)
+
+## Prix relevés en boutique (à titre indicatif)
+- Croissant 1,25 € ; croissant framboise 1,75 € ; pain aux raisins 1,55 €
+- Tarte aux pommes 3,10 € ; meringue 1,00 € ; forêt-noire à partir de 23 €
+- Galettes des rois : 4 parts 19 €, 6 parts 28 €, 8 parts 38 € ; couronne des rois 16 €
+- Formule petit-déjeuner 5,20 € (boisson chaude, jus d'orange, viennoiserie) ; formule brunch 11,80 €
+- Formules du midi avec boisson : 8,50 € et 9,00 €
+- Expresso 1,75 € ; noisette 1,85 € ; grand crème 2,80 €
